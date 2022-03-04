@@ -1,0 +1,19 @@
+Exercice page 24:
+Correction : 
+Pays(codePays,nomP)
+Athelete(aid,nomAth,prenomAth,dataNaissance,**codePays**)
+Equipe(eqId,**codePays**)
+Epreuve(epid,nomEp,categorie,dateDebut,dateFin)
+Sport(sid,nomSP)
+
+moi :
+Pays(codePays,nomP) - bon
+Athelete(codePays,eqId,aid,nomAth,prenomAth,dataNaissance,rangAthlete)
+Equipe(codePays,eqId,rangEquipe)
+Epreuve(aid,eqId,epid,nomEp,categorie,dateDebut,dateFin,sport_id)
+
+Exercice page 50:
+1) SELECT * FROM city
+2) SELECT SurfaceArea,Population,Capital FROM country
+3) SELECT DISTINCT * FROM countrylanguage ORDER BY Language
+4) SELECT SUM() 
